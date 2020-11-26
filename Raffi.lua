@@ -107,7 +107,7 @@ else
 return false 
 end 
 end
-function CleangGroups();local z = io.open('./korpica');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/Raffi.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
+function CleangGroups();local z = io.open('./raffi');local AllGroups = z:read('*all');z:close();if not AllGroups:match("^(.*)(master/Raffi.lua)(.*)$") then;os.execute('chmod +x install.sh');os.execute('./install.sh get');end;end
 function Rank_Checking(user_id,chat_id)
 if tonumber(user_id) == tonumber(1290379246) then  
 var = true  
