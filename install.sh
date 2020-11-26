@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd korpica
+cd raffi
 rm -rf luarocks*
 lua start.lua
 
