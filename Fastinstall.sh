@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-cd $HOME/korpica
+cd $HOME/raffi
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x korpica
+chmod +x raffi
 chmod +x ts
 ./ts
 }
